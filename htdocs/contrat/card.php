@@ -1826,7 +1826,8 @@ if ($action == 'create') {
 								} else {
 									$filtertype = '1';
 								}
-								print $form->select_produits($currentLineProductId, 'idprod', $filtertype, 0, 0, 1, 2, '', 0, array(), 0, 1, 0, 'minwidth250onall maxwidth500 widthcentpercentminusx');							} else {
+								print $form->select_produits($currentLineProductId, 'idprod', $filtertype, 0, 0, 1, 2, '', 0, array(), 0, 1, 0, 'minwidth250onall maxwidth500 widthcentpercentminusx');
+							} else {
 								$form->select_produits_fournisseurs($currentLineProductId, 'idprod');
 							}
 						}
